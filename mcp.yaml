@@ -1,0 +1,13 @@
+operations:
+  source: local
+  paths:
+    - tools
+introspection:
+  introspect: 
+    enabled: true
+    minify: true
+  search: 
+    enabled: true
+    minify: true
+  execute: 
+    enabled: true

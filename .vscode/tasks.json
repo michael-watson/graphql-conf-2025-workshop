@@ -1,0 +1,27 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "dev",
+      "command": "rover", // Could be any other shell command
+      "args": [
+        "dev",
+        "--mcp",
+        "mcp.yaml",
+        "--supergraph-config",
+        "supergraph.yaml",
+        "--router-config",
+        "router.yaml"
+      ],
+      "type": "shell",
+      "problemMatcher": []
+    },
+    {
+      "label": "mcp inspector",
+      "command": "npx", // Could be any other shell command
+      "args": ["@modelcontextprotocol/inspector"],
+      "type": "shell",
+      "problemMatcher": []
+    }
+  ]
+}

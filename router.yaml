@@ -1,0 +1,5 @@
+connectors:
+  sources:
+    pokemon.openai:
+      $config:
+        apiKey: ${env.OPENAI_API_KEY}

@@ -1,0 +1,6 @@
+subgraphs:
+  pokemon:
+    routing_url: http://ignore
+    schema:
+      file: pokemon.graphql
+federation_version: =2.11.0

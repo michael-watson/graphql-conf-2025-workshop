@@ -1,0 +1,4 @@
+{
+    "recommendations": ["apollographql.vscode-apollo","redhat.vscode-yaml"],
+    "unwantedRecommendations": ["graphql.vscode-graphql" ]
+}
