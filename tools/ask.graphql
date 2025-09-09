@@ -1,0 +1,6 @@
+# Ask a named pokemon a question
+query AskPokemonQuestion($name: String!, $question: String!) {
+  pokemon: pokemonByName(name: $name) {
+    ask(question: $question)
+  }
+}
